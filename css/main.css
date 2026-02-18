@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 120%;
+  font-family: "Google Sans", Helvetica, Arial, sans-serif;
+}
+
+img {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+table td {
+  border-collapse: collapse;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+p {
+  margin: 0 0 6px 0;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+ul li {
+  margin-bottom: 4px;
+}
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.underlined {
+  border-bottom: 1px solid #000;
+}
+
+.z7 {
+  font-size: 10px;
+}
+
+.z8 {
+  /* padding-left: 20px; */
+  font-size: 10px;
+}
+
+.z12 {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.z14 {
+  font-size: 14px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.pl-72 {
+  padding-left: 72px;
+}
+
+.options-table {
+  width: 100%;
+}
+
+.options {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.options-title {
+  padding-bottom: 12px;
+  font-size: 12px;
+}
+
+.cell-sensors-title {
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 6px;
+  width: 100px;
+  max-width: 400px;
+}
+
+.cell-options-title {
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 6px;
+}
+
+.cell-sensors-desc {
+  padding-top: 16px;
+  padding-bottom: 4px;
+}
+
+.cell-options-desc {
+  padding-top: 16px;
+  padding-bottom: 4px;
+  width: 355px;
+}
+
+.final-amount-desc {
+  padding: 20px;
+  font-size: 12px;
+}
+
+.final-amount-price {
+  padding: 20px;
+  background-color: #14c1de;
+}
+
+.main-table {
+  padding: 0;
+}
+
+.header {
+  padding: 24px 36px;
+  background-color: #f3f7f9;
+}
+
+.header-row {
+  vertical-align: top;
+  font-size: 10px;
+}
+
+.header-block-title {
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #14c1de;
+}
+
+.header-block-content {
+  font-weight: 300;
+  color: #000;
+  width: 84px;
+}
+
+.title {
+  padding: 0 0 32px;
+}
+
+.main {
+  padding: 28px 36px;
+  vertical-align: top;
+}
+
+.main-title {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 4px;
+}
+
+.main-subtitle {
+  margin: 0;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.manager-block {
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.manager-icon {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.manager-icon::before {
+  content: "";
+  display: inline-block;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.manager-icon.whatsapp::before {
+  background-image: url("../images/icons/whatsapp-new.svg");
+}
+
+.manager-icon.telegram::before {
+  background-image: url("../images/icons/telegram-new.svg");
+}
+
+.manager-icon.email::before {
+  background-image: url("../images/icons/email-new.svg");
+}
+
+.manager-block-title {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.add {
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #000;
+}
+
+.add-title {
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 400;
+  margin: 0 0 6px;
+}
+
+.add-subtitle {
+  font-size: 8px;
+  line-height: 110%;
+  margin: 0;
+}
+
+.btn {
+  padding: 20px 40px;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  color: #fff;
+  background-color: #14c1de;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.myself {
+  width: 100%;
+  margin-top: 30px;
+  padding-right: 28px;
+  margin-bottom: 50px;
+  padding-left: 35px;
+}
+
+.myself__title {
+  height: 32px;
+}
+
+.new-icon-dop {
+  display: flex;
+  width: 32%;
+  gap: 12px;
+  background-color: #eef2f4;
+  border-radius: 10px;
+  padding: 16px 12px;
+}
+
+.content-new-prop h4 {
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 400;
+  margin: 0 0 6px;
+}
+
+.content-new-prop p {
+  font-size: 8px;
+  line-height: 110%;
+}
+
+.footer {
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-bottom: 16px;
+  padding-right: 20px;
+  background-color: #eef2f4;
+}
+
+.footer-block {
+  padding-right: 16px;
+  display: inline-block;
+  font-size: 8px;
+}
+
+.footer .pagenum::before {
+  content: counter(1);
+}/*# sourceMappingURL=main.css.map */
